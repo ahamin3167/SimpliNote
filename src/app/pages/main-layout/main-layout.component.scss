@@ -29,3 +29,22 @@
         font-size: 24px;
     }
 }
+
+.dark-mode-toggle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    bottom: 30px;
+    right: 40px;
+    height: 34px;
+    width: 174px;
+    border-radius: 5px;
+    
+    background-color: #222222;
+
+    p {
+        color: white;
+    }
+}
